@@ -9,7 +9,7 @@ checkBtn.addEventListener('click', function(){
     alert("Fill in the required fields.")
     }
     else{
-        let fetchedName = userName.value;
+        let fetchedName === userName.value;
         if(yearOfBirth.value > currentYear){
             alert("Time Traveller");
             }
