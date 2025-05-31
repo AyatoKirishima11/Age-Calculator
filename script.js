@@ -13,7 +13,7 @@ checkBtn.addEventListener('click', function(){
         if(yearOfBirth.value > currentYear){
             alert("Time Traveller");
             }
-        else if(currentYear = yearOfBirth.value){
+        else if(currentYear === yearOfBirth.value){
             alert("WTH baby using computer?");
             }
         else{
