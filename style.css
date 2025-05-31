@@ -1,0 +1,68 @@
+:root{
+    --lightBG: linear-gradient(45deg, #62ff62, rgb(107, 107, 255));
+    --darkBG: linear-gradient(45deg, #ffffff, rgb(0, 0, 0));
+    }
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    background: var(--lightBG);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#mainBox{
+    border: 1px solid rgb(0, 0, 0);
+    background: #1d1d1d;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    contain: content;
+    box-shadow: black 0 0 10px 3px;
+    h1{
+        padding: 20px;
+        background: goldenrod;}
+    }
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px;
+    }
+
+#inputSection{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 20px;
+    }
+
+#outputSection{
+    margin: 20px;
+    justify-content: end;
+    }
+
+#checkBtn{
+    padding: 5px;
+    color: #000000a8;
+    border-radius: 5px;
+    background-color: white;
+    border: transparent;
+    &:active{
+        box-shadow: white 0 0 5px 1px;
+        transform: translateY(2px);
+    }
+    }
+
+#outputMsg{
+    margin-top: 50px;
+    width: 100%;
+}
